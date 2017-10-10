@@ -17,7 +17,7 @@
   .main-page .mobile-title {
     visibility: visible;
     z-index: 20;
-    top: 350px;
+    top: 300px;
     position: fixed;
   }
 
@@ -33,7 +33,7 @@
     margin-top: 0;
   }
   .about .about-title-container h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .about .about-bio-container {
     width: 90%;
