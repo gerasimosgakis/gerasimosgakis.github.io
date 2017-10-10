@@ -15,25 +15,29 @@ a:hover {
 }
 
 .topnav {
-  width: 102%;
+  float: left;
+  width: 100%;
   margin-top: -10px;
   position: fixed;
   background-color: black;
-  z-index: 1;
+  z-index: 10;
 }
 .topnav ul {
-  width: 95%;
+  width: 100%;
   text-align: right;
 }
 .topnav li {
   display: inline;
-  padding: 5px;
+  padding-right: 5px;
+}
+.topnav li:nth-child(3) {
+  padding-right: 50px;
 }
 
 .main-page {
   position: fixed;
   width: 100%;
-  z-index: 0;
+  z-index: 3;
 }
 .main-page .title-container {
   width: 50%;
@@ -77,18 +81,20 @@ a:hover {
   display: inline-block;
   float: right;
 }
-
-.my-pic {
-  width: 75%;
+.main-page .mobile-title {
+  margin: auto;
+  visibility: hidden;
 }
 
 .about {
+  margin-bottom: -20px;
   position: absolute;
   width: 100%;
   background: white;
   height: 800px;
   top: 800px;
   color: black;
+  z-index: 4;
 }
 .about .about-title-container {
   width: 20%;
@@ -114,3 +120,162 @@ a:hover {
   font-size: 15pt;
   line-height: 40px;
 }
+
+.contact {
+  position: absolute;
+  top: 1590px;
+  width: 100%;
+  height: 1000px;
+  z-index: 5;
+  background: #191919;
+}
+.contact:after {
+  content: "";
+  background: url("https://www.dropbox.com/s/9hmtul9i9zncb4s/pexels-photo.jpg?dl=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 1000px;
+}
+.contact h1 {
+  text-align: center;
+  font-size: 7em;
+  margin-top: 10%;
+}
+.contact .social-media {
+  position: relative;
+  text-align: center;
+  /* Style all font awesome icons */
+  /* Add a hover effect if you want */
+  /* Facebook */
+}
+.contact .social-media a {
+  text-align: center;
+}
+.contact .social-media .fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 20px 0 20px;
+}
+.contact .social-media .fa:hover {
+  opacity: 0.7;
+}
+.contact .social-media .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.contact .social-media .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.contact .social-media .fa-phone-square {
+  background: green;
+  color: white;
+}
+.contact .social-media .fa-envelope {
+  background: #191919;
+  color: white;
+}
+.contact #details {
+  font-size: 2.5em;
+  border: 2px solid grey;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 30px;
+}
+.contact #details a {
+  color: white;
+}
+.contact #details a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 950px) {
+  .topnav {
+    width: 100%;
+  }
+
+  .main-page .title-container {
+    display: none;
+  }
+  .main-page .title-container .title {
+    display: none;
+  }
+  .main-page .my-pic-container {
+    position: fixed;
+    left: 30%;
+    z-index: 1;
+  }
+  .main-page .mobile-title {
+    visibility: visible;
+    z-index: 20;
+    top: 350px;
+    position: fixed;
+  }
+
+  .about {
+    width: 100%;
+  }
+  .about .about-title-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: yellow;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .about .about-title-container h1 {
+    font-size: 4em;
+  }
+  .about .about-bio-container {
+    width: 90%;
+  }
+  .about .about-bio-container p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact h1 {
+    font-size: 4em;
+  }
+  .contact .social-media {
+    text-align: center;
+  }
+  .contact .social-media .fa {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+  }
+  .contact #details {
+    font-size: 1.5em;
+    width: 90%;
+  }
+}
+/*  #details{
+
+    font-size: 2.5em;
+    border: 2px solid grey;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 30px;
+    
+    a{
+      color: white;
+    
+      &:hover{
+        color: black;
+      }*/
