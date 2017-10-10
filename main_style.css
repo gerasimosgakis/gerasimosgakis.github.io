@@ -2,7 +2,7 @@
   width: device-width;
 }
 
-@media handheld, screen and (min-device-width: 200px) (max-device-width: 950px) {
+@media handheld, screen and (min-device-width: 200px) (max-device-width: 960px) {
   .topnav {
     width: 100%;
   }
