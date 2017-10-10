@@ -2,7 +2,7 @@
   width: device-width;
 }
 
-@media screen and (max-width: 950px) {
+@media only screen and (max-width: 950px) {
   .topnav {
     width: 100%;
   }
