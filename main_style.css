@@ -64,6 +64,7 @@
 
 
 body {
+  overflow-x: hidden;
   background-color: #191919;
   color: white;
   font-family: "Dosis", sans-serif;
