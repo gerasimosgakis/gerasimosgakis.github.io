@@ -83,6 +83,11 @@ a:hover {
   display: inline-block;
   float: right;
 }
+
+.main-page .my-pic-container .my-pic {
+  height: 1000px;
+}
+
 .main-page .mobile-title {
   margin: auto;
   visibility: hidden;
