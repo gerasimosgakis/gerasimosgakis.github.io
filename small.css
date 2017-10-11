@@ -13,6 +13,9 @@
     left: 30%;
     z-index: 1;
   }
+  .main-page .my-pic-container .my-pic {
+    height: 600px;
+  }
   .main-page .mobile-title {
     visibility: visible;
     z-index: 20;
