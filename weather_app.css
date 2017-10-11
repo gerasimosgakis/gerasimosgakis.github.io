@@ -1,0 +1,65 @@
+html{
+  height:100%;
+}
+
+body{
+  color: black;
+  font-family: sans-serif, arial;
+  font-weight: bold;
+  font-size: 15pt;
+  background-image: url(https://laughingsquid.com/wp-content/uploads/2014/12/4-Seasons-in-One-Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100%;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container-fluid{
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -70px;
+}
+
+#weatherBox{
+  position: relative;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 20%;
+  padding-top: 10px;
+}
+
+
+.panel-footer{
+  text-align: center;
+  margin-top: 0px;
+}
+
+#topNav{
+  font-size: 12pt;
+  height: auto;
+}
+
+#nav_ul{
+  height: 100%;
+}
+
+footer{
+  matgin-bottom: 0;
+  position: absolute;
+  background-color: #e5e5e5;
+  text-align: center;
+  width: 100%;
+  
+}
+
+#bottomNav{
+  padding-top: 15px;
+  background-color: #e5e5e5;
+  bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
