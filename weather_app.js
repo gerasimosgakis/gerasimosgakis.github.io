@@ -42,7 +42,7 @@ $(document).ready(function(){
     console.log(`Longitude: ${lon}`);
     console.log(`More or less ${crd.accuracy} meters.`);
 
-    var linkApi = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=" + units + "&appid=7888ee1c8b22c5543cba076d14f47e99";
+    var linkApi = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&units=" + units + "&appid=7888ee1c8b22c5543cba076d14f47e99";
     
     //https://cors-anywhere.herokuapp.com/
     //Gives us temperature in C & area
