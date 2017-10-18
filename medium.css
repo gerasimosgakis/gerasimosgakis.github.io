@@ -1,0 +1,53 @@
+@media only screen and (min-width: 600px) {
+  .main-page .title-container {
+    margin-left: 10%;
+  }
+  .main-page .title-container .title {
+    font-size: 50pt;
+  }
+  .main-page .description h1 {
+    font-size: 3em;
+  }
+
+  .about {
+    min-height: 2300px;
+  }
+  .about .about-title-container {
+    height: 200px;
+  }
+  .about .about-title-container h1 {
+    margin-top: 50px;
+    font-size: 6em;
+  }
+  .about .my-pic-container {
+    width: 350px;
+  }
+
+  .projects h1 {
+    font-size: 6em;
+  }
+  .projects .gallery .gallery-cell img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  .projects .gallery .twitch img {
+    margin-top: 15%;
+  }
+
+  .contact h1 {
+    font-size: 6em;
+  }
+  .contact .social-media .fa {
+    padding: 20px;
+    text-align: center;
+    font-size: 80px;
+    width: 120px;
+    height: 120px;
+    margin: 0 10px 0 10px;
+  }
+  .contact #details {
+    font-size: 2em;
+    max-width: 80%;
+  }
+}
