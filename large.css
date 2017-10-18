@@ -1,0 +1,14 @@
+@media only screen and (min-width: 900px) {
+  .main-page {
+    min-height: 1500px;
+  }
+  .main-page .title-container {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .main-page .title-container .title {
+    font-size: 100pt;
+  }
+}
