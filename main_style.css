@@ -1,4 +1,9 @@
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #191919;
   color: white;
@@ -6,49 +11,50 @@ body {
   overflow-x: hidden;
 }
 
-a {
+/*Top Navigation Bar*/
+.topnav {
+  margin-top: -20px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  z-index: 100;
+}
+.topnav ul {
+  float: right;
+}
+.topnav ul li {
+  display: inline;
+}
+.topnav ul li a {
   text-decoration: none;
   color: #c1c1c1;
-  padding: 10px;
+  padding: 10px 15px 10px 10px;
+  text-align: center;
 }
-a:hover {
+.topnav ul li a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav {
-  float: left;
-  width: 100%;
-  margin-top: -10px;
-  position: fixed;
-  background-color: black;
-  z-index: 10;
-}
-.topnav ul {
-  width: 100%;
-  text-align: right;
-}
-.topnav li {
-  display: inline;
-  padding-right: 5px;
-}
-.topnav li:nth-child(3) {
-  padding-right: 50px;
-}
-
+/*Main Page*/
 .main-page {
   position: fixed;
   width: 100%;
-  z-index: 3;
+  text-align: center;
+  background: white;
+  color: black;
+  min-height: 800px;
 }
 .main-page .title-container {
-  width: 50%;
-  margin-left: 10%;
-  margin-top: 100px;
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 200px;
   display: inline-block;
 }
 .main-page .title-container .title {
-  font-size: 70pt;
+  font-size: 25pt;
   float: left;
 }
 .main-page .title-container #unique {
@@ -78,48 +84,51 @@ a:hover {
 .main-page .title-container #u {
   margin-left: 15px;
 }
-.main-page .my-pic-container {
-  width: 40%;
-  display: inline-block;
-  float: right;
+.main-page .description {
+  position: relative;
+  top: 80px;
+}
+.main-page .description h1 {
+  font-size: 2em;
 }
 
-.main-page .my-pic-container .my-pic {
-  height: 1000px;
-}
-
-.main-page .mobile-title {
-  margin: auto;
-  visibility: hidden;
-}
-
+/*About page*/
 .about {
-  margin-bottom: -20px;
-  position: absolute;
-  width: 100%;
-  min-height: 1200px;
-  background: white;
+  position: relative;
   top: 800px;
-  color: black;
-  z-index: 4;
+  width: 100%;
+  min-height: 2900px;
+  background: #191919;
+  color: white;
 }
 .about .about-title-container {
-  background-color: yellow;
-  height: 600px;
-  width: 20%;
-  text-align: center;
-  margin-top: 5%;
-  margin-left: 20%;
   float: left;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  background: yellow;
+  margin-left: 0;
+  margin-top: 0;
 }
 .about .about-title-container h1 {
-  font-size: 70pt;
+  font-size: 4em;
+  color: black;
+}
+.about .my-pic-container {
+  width: 260px;
+  margin: auto;
+}
+.about .my-pic-container .my-pic {
+  width: 100%;
 }
 .about .about-bio-container {
-  width: 40%;
-  padding-right: 30px;
-  padding-top: 30px;
-  float: right;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  top: 0px;
 }
 .about .about-bio-container #emphasis {
   font-size: 20pt;
@@ -129,14 +138,60 @@ a:hover {
   font-size: 15pt;
   line-height: 40px;
 }
+.about .about-bio-container p {
+  width: 100%;
+  text-align: center;
+}
+
+.projects {
+  text-align: center;
+  width: 100%;
+  min-height: 800px;
+  background: white;
+  position: relative;
+  margin-top: 0;
+  z-index: 5;
+  text-align: center;
+}
+.projects h1 {
+  color: black;
+  position: relative;
+  top: 60px;
+  font-size: 4em;
+}
+.projects .gallery {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  top: 60px;
+  background: black;
+}
+.projects .gallery .gallery-cell {
+  width: 100%;
+  height: 400px;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+.projects .gallery .gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.projects .gallery .gallery-cell img {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
 
 .contact {
-  position: absolute;
-  top: 2000px;
+  position: relative;
   width: 100%;
   height: 1000px;
   z-index: 5;
   background: #191919;
+  float: left;
 }
 .contact:after {
   content: "";
@@ -152,7 +207,7 @@ a:hover {
 }
 .contact h1 {
   text-align: center;
-  font-size: 7em;
+  font-size: 3.5em;
   margin-top: 10%;
 }
 .contact .social-media {
@@ -166,13 +221,13 @@ a:hover {
   text-align: center;
 }
 .contact .social-media .fa {
-  padding: 20px;
-  font-size: 80px;
-  width: 80px;
-  height: 80px;
+  padding: 10px;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   text-decoration: none;
-  margin: 0 20px 0 20px;
+  margin: 0 5px 0 5px;
 }
 .contact .social-media .fa:hover {
   opacity: 0.7;
@@ -190,13 +245,12 @@ a:hover {
   color: white;
 }
 .contact .social-media .fa-envelope {
-  background: #191919;
+  background: black;
   color: white;
 }
 .contact #details {
-  font-size: 2.5em;
+  font-size: 1.5em;
   border: 2px solid grey;
-  width: 600px;
   text-align: center;
   margin: auto;
   margin-top: 200px;
@@ -204,8 +258,9 @@ a:hover {
 }
 .contact #details a {
   color: white;
+  text-decoration: none;
+  font-size: 1em;
 }
 .contact #details a:hover {
-  color: black;
+  color: #f5f5dc;
 }
-
