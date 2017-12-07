@@ -20,11 +20,23 @@ function init() {
   ]);
 };
 window.addEventListener('load', init, false);*/
-window.onload = function() {
+/*window.onload = function() {
     document.getElementById('to-pix').closePixelate([
-        { resolution : 8 }
+        { resolution : 10 }
     ]);
-};
+};*/
+
+var x = setInterval(function() {
+  document.getElementById('to-pix').closePixelate([
+      { resolution : 8 }
+  ]);
+}, 3000);
+
+var y = setTimeout(function() {
+  document.getElementById('to-pix').closePixelate([
+      { resolution : 1 }
+  ]);
+}, 3500);
 </script>
 </body>
 </html>
