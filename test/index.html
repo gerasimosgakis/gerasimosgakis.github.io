@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://close-pixelate.desandro.com/close-pixelate.js"></script>
+</head>
 <body>
 
-<img id="profile-pic" src="./profile_pic.jpg">
+<img id="profile-pic" src="./profile_pic.png">
 <script>
-
+  function init() {
+    document.getElementById('profile-pic').closePixelate([
+      { resolution : 24 },
+      { shape : 'circle', resolution : 24, size: 16, offset: 12, alpha: 0.5 }
+    ]);
+  };
+  window.addEventListener( 'load', init, false);
 </script>
 </body>
 </html>
