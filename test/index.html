@@ -2,19 +2,29 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://close-pixelate.desandro.com/close-pixelate.js"></script>
+  <script type="text/javascript" src="close-pixelate.js"></script>
+  <img id="to-pix" src="profile_pic.jpg">
 </head>
 <body>
 
-<img id="profile-pic" src="./Small-mario.png">
 <script>
-  function init() {
-    document.getElementById('profile-pic').closePixelate([
-      { resolution : 24 },
-      { shape : 'circle', resolution : 24, size: 16, offset: 12, alpha: 0.5 }
+/*var image = new Image();
+image.crossOrigin = "anonymous";
+image.src = "http://www.grani.lv/uploads/posts/2015-04/1429278984_kotiki_ook.jpg";
+document.body.appendChild(image);
+
+function init() {
+    image.closePixelate([
+    { resolution : 18 },
+    { shape : 'circle', resolution : 18, size: 18, offset: 9, alpha: 1 }
+  ]);
+};
+window.addEventListener('load', init, false);*/
+window.onload = function() {
+    document.getElementById('to-pix').closePixelate([
+        { resolution : 8 }
     ]);
-  };
-  window.addEventListener( 'load', init, false);
+};
 </script>
 </body>
 </html>
