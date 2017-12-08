@@ -1,5 +1,6 @@
 body {
-  width: 100%; }
+  width: 100%;
+  font-family: "Dosis", sans-serif; }
 
 .topnav {
   width: 100%;
@@ -33,6 +34,21 @@ body {
       font-size: 20pt;
       margin-left: 30%;
       animation: fadeIn 2s ease-in 2s backwards; }
+
+.about {
+  position: relative;
+  top: 800px;
+  width: 100%;
+  background: #191919;
+  color: white; }
+  .about .about-title-container {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: yellow; }
+    .about .about-title-container h1 {
+      font-size: 4em;
+      margin-top: 20px; }
 
 @keyframes fadeIn {
   0% {
