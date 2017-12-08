@@ -1,0 +1,23 @@
+
+body {
+  width: 100%;
+}
+
+.topnav {
+  width: 100%;
+  position: fixed;
+  background: black;
+  z-index: 100;
+  ul {
+    float: right;
+    li {
+      display: inline;
+      a {
+        text-decoration: none;
+        color: #c1c1c1;
+        text-align: center;
+        padding: 10px 15px 10px 10px;
+      }
+    }
+  }
+}
