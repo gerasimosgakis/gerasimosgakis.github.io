@@ -20,7 +20,7 @@ module.exports = function(grunt) {
               format: "png",
               gravity: "center",
               height: 300,
-              width: 300
+              width: 350
             },
             files: {
                       'images_small': [
