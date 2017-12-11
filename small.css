@@ -22,17 +22,17 @@ body {
   position: fixed;
   margin-top: 100px; }
   .main-page h1 {
-    font-size: 30pt; }
+    font-size: 40pt; }
     .main-page h1 span {
-      margin-left: 10%;
+      margin-left: 20%;
       animation: fadeIn 2s ease-in 0s backwards; }
     .main-page h1 span:nth-child(2) {
-      font-size: 40pt;
-      margin-left: 20%;
+      font-size: 50pt;
+      margin-left: 30%;
       animation: fadeIn 2s ease-in 1s backwards; }
     .main-page h1 span:nth-child(3) {
-      font-size: 20pt;
-      margin-left: 30%;
+      font-size: 30pt;
+      margin-left: 40%;
       animation: fadeIn 2s ease-in 2s backwards; }
 
 .about {
