@@ -23,7 +23,7 @@ module.exports = function(grunt) {
               width: 300
             },
             files: {
-                      'images': [
+                      'images_small': [
                         'images/*',
                       ],
             },
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         /* Clear out the images directory if it exists */
         clean: {
           dev: {
-            src: ['images'],
+            src: ['images', 'images_small'],
           },
         },
 
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
         mkdir: {
           dev: {
             options: {
-              create: ['images']
+              create: ['images', 'images_small']
             },
           },
         },
