@@ -28,11 +28,25 @@ module.exports = function(grunt) {
                       ],
             },
           },
+          second_group: {
+            options: {
+              format: "png",
+              gravity: "center",
+              height: 500,
+              width: 600
+            },
+            files: {
+                      'images_medium': [
+                        'images/*',
+                      ],
+            },
+          },
         },
+
         /* Clear out the images directory if it exists */
         clean: {
           dev: {
-            src: ['images', 'images_small'],
+            src: ['images', 'images_small', 'images_medium'],
           },
         },
 
@@ -40,7 +54,7 @@ module.exports = function(grunt) {
         mkdir: {
           dev: {
             options: {
-              create: ['images', 'images_small']
+              create: ['images', 'images_small', 'images_medium']
             },
           },
         },
