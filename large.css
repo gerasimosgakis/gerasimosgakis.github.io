@@ -34,4 +34,11 @@
     .projects .gallery .gallery-cell img {
       height: 400px; }
 
+.contact h1 {
+  font-size: 5.5em; }
+.contact .social-media .fa {
+  font-size: 80px;
+  width: 100px;
+  height: 100px; }
+
 /*# sourceMappingURL=large.css.map */
