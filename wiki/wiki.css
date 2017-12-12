@@ -1,0 +1,109 @@
+
+
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+  height: 800px;
+  min-width: 100%;
+  margin-bottom: 0px;
+  background-color: #2a2b2d;
+  font-family: 'Montserrat', sans-serif;
+  color: #eaecef;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+}
+
+
+#header-row{
+  color: #eaecef;
+  /*margin-top: 150px;*/
+}
+
+.container{
+  margin: 0 auto;
+}
+
+#container2{
+
+  margin-top: 100px;
+}
+
+.row{
+
+  margin: auto;
+  line-height: 40px;
+}
+
+#button_row{
+  line-height: 20px;
+  /*margin-left: 40%;*/
+  text-align: center;
+
+}
+.btn{
+  margin-right: 10px;
+}
+
+div{
+  padding-bottom: 20px;
+}
+
+
+
+#search{
+  position: relative;
+  text-align: center;
+}
+
+#first_row{
+  margin-top: 15%;
+}
+
+
+#second_row{
+
+}
+
+.input[type=text]{
+  position: relative;
+  width: 100%;
+  background-color: #F0F0F0;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding-left: 42px;
+  padding-top: 5px;
+
+  background-image: url('https://www.japantimes.co.jp/wp-content/themes/jt_theme/library/img/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  height:40px;
+  background-size: 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  border: 0px;
+  color: black;
+}
+
+
+
+
+#results a{
+  text-decoration: none;
+  color: beige;
+}
+
+#results a:visited{
+  color: #73b5ef;
+  text-decoration: none;
+}

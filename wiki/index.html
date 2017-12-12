@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wikipedia Search Engine</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="wiki.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="wiki.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+  <body>
+
+    <div class="header"> <!-- Header -->
+      <div class="container"> <!-- Header Container -->
+        <div id="header-row" class="row"> <!-- Row -->
+          <div col-xs-6> <!-- Column -->
+            <h1>Wikipedia Search Engine</h1>
+          </div> <!-- End of Column -->
+        </div> <!-- End of Row -->
+      </div> <!-- End of header Container -->
+    </div> <!-- End of Header -->
+    <div id="container1" class="container"> <!-- Main Container -->
+      <div id="first_row" class="row"> <!--First row  -->
+        <div class=""> <!-- Column -->
+        <span> <!-- Input span -->
+          <input id="input" type="text" name="search" class="input" placeholder="Search..">
+        </span> <!-- End of span -->
+        </div> <!-- End of column -->
+      </div> <!-- End of first row -->
+
+      <div id="button_row" class="row"> <!-- Start of Button row -->
+        <div id="buttons" class="col-xs-12"> <!-- Start of buttons div -->
+          <a target=_blank href="https://en.wikipedia.org/wiki/Special:Random" id="random_btn" class="btn btn-default">Random search</a> <!-- Random button -->
+          <button type="button" id="search_btn" class="btn btn-default">Search</button><!-- Search button -->
+        </div> <!-- End of buttons div -->
+      </div> <!-- End of buttons row -->
+
+      <div id="second_row" class="row"> <!-- Start of second row -->
+        <div id="results" class="col-xs-12"> <!-- Start of div results -->
+        </div> <!-- End of div results -->
+      </div> <!-- End of second row -->
+
+
+    </div> <!-- End of main container -->
+
+
+  </body>
+
+</html>
