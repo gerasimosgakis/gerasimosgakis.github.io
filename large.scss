@@ -1,0 +1,51 @@
+.main-page {
+  margin-top: 100px;
+  h1 {
+    font-size: 80pt;
+    span{
+      margin-left: 30%;
+      animation: fadeIn 2s ease-in 0s backwards;
+    }
+    span:nth-child(2){
+      font-size: 90pt;
+      margin-left: 35%;
+      animation: fadeIn 2s ease-in 1s backwards;
+    }
+    span:nth-child(3){
+      font-size: 70pt;
+      margin-left: 40%;
+      animation: fadeIn 2s ease-in 2s backwards;
+    }
+  }
+}
+
+.about {
+  min-height: 2500px;
+  .about-title-container {
+    a {
+      font-size: 75pt;
+    }
+  }
+  .my-pic-container {
+    width: 40%;
+    max-width: 400px;
+    margin: auto;
+  }
+  .about-bio-container {
+    font-size: 25pt;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+.projects {
+  .gallery {
+    max-width: 800px;
+    .gallery-cell {
+      height: 500px;
+      img {
+        height: 400px;
+      }
+    }
+  }
+}
