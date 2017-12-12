@@ -147,6 +147,65 @@ body {
   }
 }
 
+.contact {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 1000px;
+  z-index: 5;
+  background: #191919;
+  &:after {
+    content: "";
+    background: url("background-images/pexels-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 1000px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 10%;
+  }
+  .social-media {
+    position: relative;
+    text-align: center;
+    .fa {
+      padding-top: 10px;
+      padding-bottom: 0;
+      font-size: 40px;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      text-decoration: none;
+      margin: 0 5px 0 5px;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    .fa-phone-square {
+      background: green;
+      color: white;
+    }
+    .fa-envelope {
+      background: black;
+      color: white;
+    }
+  }
+}
+
 
 @keyframes fadeIn{
 	0%{
