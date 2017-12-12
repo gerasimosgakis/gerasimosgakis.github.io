@@ -51,7 +51,7 @@ body {
   position: relative;
   top: 800px;
   width: 100%;
-  min-height: 1600px;
+  min-height: 2000px;
   background: #191919;
   color: white;
   .about-title-container {
@@ -61,6 +61,13 @@ body {
     a {
       top: 80px;
       cursor: default;
+    }
+  }
+  .my-pic-container {
+    width: 260px;
+    margin: auto;
+    img {
+      width: 100%;
     }
   }
   .about-bio-container {
@@ -117,6 +124,7 @@ body {
   min-height: 800px;
   margin-top: 0px;
   h1 {
+    position: relative;
     color: black;
     top: 60px;
     font-size: 4em;
@@ -167,12 +175,15 @@ body {
     height: 1000px;
   }
   h1 {
+    position: relative;
+    top: 60px;
     text-align: center;
     font-size: 3.5em;
     margin-top: 10%;
   }
   .social-media {
     position: relative;
+    top: 60px;
     text-align: center;
     .fa {
       padding-top: 10px;
