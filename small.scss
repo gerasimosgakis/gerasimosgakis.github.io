@@ -53,6 +53,26 @@ body {
       animation: fadeIn 2s ease-in 2s backwards;
     }
   }
+  h2 {
+    font-size: 2em;
+  }
+}
+
+.css-typing{
+    margin-left: 10%;
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
 }
 
 .about {
