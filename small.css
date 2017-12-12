@@ -135,7 +135,7 @@ body {
     background: url("background-images/pexels-photo.png");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.4;
+    opacity: 0.8;
     z-index: -1;
     position: absolute;
     top: 0px;
@@ -174,6 +174,19 @@ body {
     .contact .social-media .fa-envelope {
       background: black;
       color: white; }
+  .contact #details {
+    font-size: 1.5em;
+    border: 2px solid grey;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 30px; }
+    .contact #details a {
+      color: white;
+      text-decoration: none;
+      font-size: 1em; }
+      .contact #details a:hover {
+        color: #f5f5dc; }
 
 @keyframes fadeIn {
   0% {
