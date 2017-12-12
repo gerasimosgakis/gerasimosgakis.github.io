@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pomodoro Timer</title>
+		<link rel="stylesheet" type="text/css" href="pomodoro.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="pomodoro.js" async></script>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+    <audio id="sound" src="https://www.dropbox.com/s/v4bxhfum35ay7ct/Fire_pager-jason-1283464858.mp3?dl=1" preload="auto"></audio>
+      <div class="container"> <!-- Start of container -->
+        <div class="header row"> <!-- Start of header div -->
+          <div id="header" class="col-md-4 col-md-offset-4 col-xs-12">
+            <h1>Pomodoro</h1>
+          </div>
+        </div> <!-- End of header div -->
+      </div> <!-- End of container -->
+
+      <div class="container"> <!-- Start of container -->
+        <div class="row"> <!-- Start of row -->
+          <div id="buttons" class="col-md-3 col-md-offset-3 col-xs-6">
+            <p>Session</p>
+            <div>
+              <a id="session_reduce">- </a>
+              <p id="session">25</p>
+              <a id="session_increase"> +</a>
+            </div>
+          </div>
+          <div id="buttons2" class="col-md-3 col-xs-6">
+            <p>Break</p>
+            <div>
+              <a id="break_reduce">- </a>
+              <p id="break">5</p>
+              <a id="break_increase"> +</a>
+            </div>
+          </div>
+        </div> <!-- End of row -->
+        <div class="row"> <!-- Start of row -->
+          <div id="clock_container" class="col-md-12  col-xs-12"> <!-- Start of clock_container div -->
+            <div id="clock"> <!-- Start of clock div -->
+              <div id="break_sign">BREAK!!!</div>
+              <div id="timer_div"> <!-- Start of timer_div -->
+                Work
+              </div> <!-- End of timer_div -->
+            </div> <!-- End of clock div -->
+          </div> <!-- End of clock div -->
+        </div> <!-- End of row -->
+        <div> <!-- Start of row -->
+          <button id="start_btn">
+            Start
+          </button>
+          <button id="stop_btn">
+            Stop
+          </button>
+          <button id="reset_btn">
+            Reset
+          </button>
+        </div> <div> <!-- End of row -->
+      </div> <!-- End of container -->
+  </body>
+
+</html>
