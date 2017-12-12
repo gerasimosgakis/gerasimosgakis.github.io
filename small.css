@@ -27,7 +27,8 @@ body {
   width: 100%;
   height: 800px;
   position: fixed;
-  margin-top: 200px; }
+  margin-top: 200px;
+  font-weight: lighter; }
   .main-page h1 {
     font-size: 40pt; }
     .main-page h1 span {
