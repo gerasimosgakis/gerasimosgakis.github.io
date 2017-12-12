@@ -11,6 +11,8 @@
     font-size: 50pt;
     margin-left: 40%;
     animation: fadeIn 2s ease-in 2s backwards; }
+.main-page h2 {
+  font-size: 3em; }
 
 .about .about-bio-container {
   font-size: 20pt; }

@@ -33,15 +33,15 @@ body {
     font-size: 40pt; }
     .main-page h1 span {
       margin-left: 20%;
-      animation: fadeIn 2s ease-in 0s backwards; }
+      animation: fadeIn 1s ease-in 0s backwards; }
     .main-page h1 span:nth-child(2) {
       font-size: 50pt;
       margin-left: 30%;
-      animation: fadeIn 2s ease-in 1s backwards; }
+      animation: fadeIn 1s ease-in 0.5s backwards; }
     .main-page h1 span:nth-child(3) {
       font-size: 30pt;
       margin-left: 40%;
-      animation: fadeIn 2s ease-in 2s backwards; }
+      animation: fadeIn 1s ease-in 1s backwards; }
   .main-page h2 {
     font-size: 2em; }
 
@@ -50,8 +50,8 @@ body {
   width: 30em;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-animation: type 5s steps(50, end);
-  animation: type 5s steps(50, end); }
+  -webkit-animation: type 7s steps(100, end);
+  animation: type 7s steps(100, end); }
 
 @keyframes type {
   from {
