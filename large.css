@@ -1,13 +1,37 @@
+.main-page {
+  margin-top: 100px; }
+  .main-page h1 {
+    font-size: 80pt; }
+    .main-page h1 span {
+      margin-left: 30%;
+      animation: fadeIn 2s ease-in 0s backwards; }
+    .main-page h1 span:nth-child(2) {
+      font-size: 90pt;
+      margin-left: 35%;
+      animation: fadeIn 2s ease-in 1s backwards; }
+    .main-page h1 span:nth-child(3) {
+      font-size: 70pt;
+      margin-left: 40%;
+      animation: fadeIn 2s ease-in 2s backwards; }
 
-  .main-page {
-    min-height: 1500px;
-  }
-  .main-page .title-container {
-    text-align: center;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  .main-page .title-container .title {
-    font-size: 100pt;
-  }
+.about {
+  min-height: 2500px; }
+  .about .about-title-container a {
+    font-size: 75pt; }
+  .about .my-pic-container {
+    width: 40%;
+    max-width: 400px;
+    margin: auto; }
+  .about .about-bio-container {
+    font-size: 25pt;
+    margin-left: 15%;
+    margin-right: 15%; }
+
+.projects .gallery {
+  max-width: 800px; }
+  .projects .gallery .gallery-cell {
+    height: 500px; }
+    .projects .gallery .gallery-cell img {
+      height: 400px; }
+
+/*# sourceMappingURL=large.css.map */
