@@ -3,7 +3,12 @@ body {
   font-family: "Dosis", sans-serif;
   overflow-x: hidden; }
 
+#container {
+  min-height: 100%;
+  position: relative; }
+
 .topnav {
+  top: 0;
   width: 100%;
   position: fixed;
   background: black;
@@ -125,10 +130,10 @@ body {
 
 .contact {
   position: relative;
-  top: -50px;
   width: 100%;
   height: 1000px;
   z-index: 5;
+  float: left;
   background: #191919; }
   .contact:after {
     content: "";
@@ -187,6 +192,17 @@ body {
       font-size: 1em; }
       .contact #details a:hover {
         color: #f5f5dc; }
+
+footer {
+  background: #191919;
+  position: absolute;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  bottom: -1000px;
+  z-index: 6; }
+  footer p {
+    color: #ededed; }
 
 @keyframes fadeIn {
   0% {

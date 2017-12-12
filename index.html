@@ -12,131 +12,135 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
+		<div id="container">
+			<div class="topnav">
+				<ul>
+					<li><a>About</a></li>
+					<li><a>Projects</a></li>
+					<li><a>Contacts</a></li>
+				</ul>
+			</div>
 
-		<div class="topnav">
-			<ul>
-				<li><a>About</a></li>
-				<li><a>Projects</a></li>
-				<li><a>Contacts</a></li>
-			</ul>
-		</div>
+			<div class="main-page">
+				<h1>
+					<span>Unique<br/></span>
+					<span>Digital<br/></span>
+					<span>Creations</span>
+				</h1>
+			</div>
 
-		<div class="main-page">
-			<h1>
-				<span>Unique<br/></span>
-				<span>Digital<br/></span>
-				<span>Creations</span>
-			</h1>
-		</div>
+			<div class="about">
+				<div class="about-title-container">
+			    <a href="#" class="glitch">Who Am I?</a>
+			  </div>
+			  <div class="my-pic-container">
+			    <img src="images_src/profile_pic_grey.jpg" class="my-pic" alt="profile photo" />
+			  </div>
+			  <div class="about-bio-container">
+			    <p id="bio">
+			      <span id="emphasis">Hi! My name is Gerasimos Gakis.
+			      I'm a Greek based in Edinburgh.<br/>
+			      </br>
+			      I've worked a few years as a Systems Administrator
+			      and now I'm making my first steps in front end web development,
+			      having interest in innovative design as well as back end development.<br/></span>
+			      </br>
+			      <span id="non-emphasis">In my free time, I compose/play music with my indie band
+			      and try to stay fit by practicing muay thai and taking long cycle trips.
+			      If you are interested in knowing me better or asking any questions,
+			      please do feel free to contact me.
+			      </span>
+			    </p>
+			  </div>
+			</div>
 
-		<div class="about">
-			<div class="about-title-container">
-		    <a href="#" class="glitch">Who Am I?</a>
-		  </div>
-		  <div class="my-pic-container">
-		    <img src="images_src/profile_pic_grey.jpg" class="my-pic" alt="profile photo" />
-		  </div>
-		  <div class="about-bio-container">
-		    <p id="bio">
-		      <span id="emphasis">Hi! My name is Gerasimos Gakis.
-		      I'm a Greek based in Edinburgh.<br/>
-		      </br>
-		      I've worked a few years as a Systems Administrator
-		      and now I'm making my first steps in front end web development,
-		      having interest in innovative design as well as back end development.<br/></span>
-		      </br>
-		      <span id="non-emphasis">In my free time, I compose/play music with my indie band
-		      and try to stay fit by practicing muay thai and taking long cycle trips.
-		      If you are interested in knowing me better or asking any questions,
-		      please do feel free to contact me.
-		      </span>
-		    </p>
-		  </div>
-		</div>
-
-		<div class="projects" id="projects">
-			<h1>Projects</h1>
-			<!-- Gallery using flickity -->
-			<div class="gallery js-flickity">
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/VMMwBN">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/simon.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/simon.png" />
-							<img src="images_src/simon.png" alt="Simon game">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/MEroLe">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/markdown.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/markdown.png" />
-							<img src="images_src/markdown.png" alt="Markdown preview">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/oGrjmX">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/pomodoro.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/pomodoro.png" />
-							<img src="images_src/pomodoro.png" alt="Pomodoro timer">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/oGrLpK/">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/calc.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/calc.png" />
-							<img src="images_src/calc.png" alt="Calculator">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/JWgZqj">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/twitch.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/twitch.png" />
-							<img src="images_src/twitch.png" alt="Twitch streamer">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/dvxbwM">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/wiki.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/wiki.png" />
-							<img src="images_src/wiki.png" alt="Wikipedia search engine">
-						</picture>
-					</a>
-				</div>
-				<div class="gallery-cell">
-					<a target="_blank" href="https://codepen.io/gerasimosgakis/full/MEMjWZ">
-						<picture>
-							<source media="(max-width: 460px)" srcset="images_small/random_quote.png" />
-							<source media="(min-width: 461px)" srcset="images_medium/random_quote.png" />
-							<img src="images_src/random_quote.png" alt="Random quote generator">
-						</picture>
-					</a>
+			<div class="projects" id="projects">
+				<h1>Projects</h1>
+				<!-- Gallery using flickity -->
+				<div class="gallery js-flickity">
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/VMMwBN">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/simon.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/simon.png" />
+								<img src="images_src/simon.png" alt="Simon game">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/MEroLe">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/markdown.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/markdown.png" />
+								<img src="images_src/markdown.png" alt="Markdown preview">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/oGrjmX">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/pomodoro.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/pomodoro.png" />
+								<img src="images_src/pomodoro.png" alt="Pomodoro timer">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/oGrLpK/">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/calc.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/calc.png" />
+								<img src="images_src/calc.png" alt="Calculator">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/JWgZqj">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/twitch.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/twitch.png" />
+								<img src="images_src/twitch.png" alt="Twitch streamer">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/dvxbwM">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/wiki.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/wiki.png" />
+								<img src="images_src/wiki.png" alt="Wikipedia search engine">
+							</picture>
+						</a>
+					</div>
+					<div class="gallery-cell">
+						<a target="_blank" href="https://codepen.io/gerasimosgakis/full/MEMjWZ">
+							<picture>
+								<source media="(max-width: 460px)" srcset="images_small/random_quote.png" />
+								<source media="(min-width: 461px)" srcset="images_medium/random_quote.png" />
+								<img src="images_src/random_quote.png" alt="Random quote generator">
+							</picture>
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="contact" id="contact">
-		  <h1>Get in touch</h1>
-		  <div class="social-media">
-		    <a href="https://www.facebook.com/gerasimos.gakis" target="_blank" class="fa fa-facebook"></a>
-		    <a href="https://www.linkedin.com/in/gerasimos-gakis-087718115/" target="_blank" class="fa fa-linkedin"></a>
-		    <a href="#details" class="fa fa-phone-square"></a>
-		    <a href="#details" class="fa fa-envelope"></a>
-		  </div>
-		  <div id="details">
-		    <p>Contact number: +44.7511622782</p>
-		    <p>E-mail: <a href="mailto:gerasimos.gakis@gmail.com">contact@gerasimosgakis.com</a></p>
-		  </div>
-		</div>
+			<div class="contact" id="contact">
+			  <h1>Get in touch</h1>
+			  <div class="social-media">
+			    <a href="https://www.facebook.com/gerasimos.gakis" target="_blank" class="fa fa-facebook"></a>
+			    <a href="https://www.linkedin.com/in/gerasimos-gakis-087718115/" target="_blank" class="fa fa-linkedin"></a>
+			    <a href="#details" class="fa fa-phone-square"></a>
+			    <a href="#details" class="fa fa-envelope"></a>
+			  </div>
+			  <div id="details">
+			    <p>Contact number: +44.7511622782</p>
+			    <p>E-mail: <a href="mailto:gerasimos.gakis@gmail.com">contact@gerasimosgakis.com</a></p>
+			  </div>
+			</div>
 
+			<footer>
+				<p>Designed & developed by Gerasimos Gakis</p>
+			</footer>
+		</div>
 	</body>
 </html>
