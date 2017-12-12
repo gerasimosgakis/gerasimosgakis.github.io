@@ -1,54 +1,20 @@
+.main-page {
+  width: 100%; }
+  .main-page h1 {
+    font-size: 60pt; }
+    .main-page h1 span {
+      margin-left: 20%;
+      animation: fadeIn 2s ease-in 0s backwards; }
+    .main-page h1 span:nth-child(2) {
+      font-size: 70pt;
+      margin-left: 30%;
+      animation: fadeIn 2s ease-in 1s backwards; }
+    .main-page h1 span:nth-child(3) {
+      font-size: 50pt;
+      margin-left: 40%;
+      animation: fadeIn 2s ease-in 2s backwards; }
 
-  .main-page .title-container {
-    margin-left: 10%;
-    margin-top: 40px;
-  }
-  .main-page .title-container .title {
-    font-size: 50pt;
-  }
-  .main-page .description h1 {
-    font-size: 3em;
-  }
+.about .about-bio-container {
+  font-size: 20pt; }
 
-  .about {
-    min-height: 2300px;
-  }
-  .about .about-title-container {
-    height: 200px;
-  }
-  .about .about-title-container h1 {
-    margin-top: 50px;
-    font-size: 6em;
-  }
-  .about .my-pic-container {
-    width: 350px;
-  }
-
-  .projects h1 {
-    font-size: 6em;
-  }
-  .projects .gallery .gallery-cell img {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-  }
-  .projects .gallery .twitch img {
-    margin-top: 15%;
-  }
-
-  .contact h1 {
-    font-size: 6em;
-  }
-  .contact .social-media .fa {
-    padding: 20px;
-    text-align: center;
-    font-size: 80px;
-    width: 120px;
-    height: 120px;
-    margin: 0 10px 0 10px;
-  }
-  .contact #details {
-    font-size: 2em;
-    max-width: 80%;
-  }
-
+/*# sourceMappingURL=medium.css.map */
