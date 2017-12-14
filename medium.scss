@@ -1,3 +1,37 @@
+.topnav {
+  float: left;
+  height: 46px;
+  font-size: 15pt;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: black;
+  z-index: 100;
+  a {
+    text-decoration: none;
+    color: #c1c1c1;
+    padding: 10px 15px 10px 10px;
+  }
+  a:first-child {
+    position: relative;
+    top: 10px;
+    height: 100%;
+    color: #191919;
+    background-color: #e5e5e5;
+  }
+  a:not(:first-child) {
+    padding: 10px 15px 10px 10px;
+    display: inherit;
+    float: right;
+  }
+  a.icon {
+    //top: -100px;
+    float: right;
+    display: none;;
+    padding: 0 10px 0 0;
+  }
+}
+
 .main-page {
   h1 {
     font-size: 60pt;

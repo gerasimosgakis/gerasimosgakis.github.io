@@ -16,12 +16,12 @@
 	</head>
 	<body>
 		<div id="container">
-			<div class="topnav">
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
+			<div class="topnav" ID="myTopnav">
+					<a href="#">Gerasimos</a>
+					<a href="#contact">Contact</a>
+					<a href="#projects">Projects</a>
+					<a href="#about">About</a>
+					<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
 			</div>
 
 			<div class="main-page">
@@ -146,5 +146,16 @@
 				<p>Designed & developed by Gerasimos Gakis</p>
 			</footer>
 		</div>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+						x.className += " responsive";
+				} else {
+						x.className = "topnav";
+				}
+			}
+		</script>
 	</body>
 </html>
