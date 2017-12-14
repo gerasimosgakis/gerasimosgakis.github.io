@@ -40,13 +40,14 @@ html, body {
 }
 
 .topnav.responsive {
-  //position: relative;
+  position: fixed;
   .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
   a {
+    color: #c1c1c1;
     background: #191919;
     float: none;
     display: block;
