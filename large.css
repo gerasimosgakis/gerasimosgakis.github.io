@@ -1,20 +1,18 @@
-.main-page {
-  margin-top: 100px; }
-  .main-page h1 {
-    font-size: 80pt; }
-    .main-page h1 span {
-      margin-left: 30%;
-      animation: fadeIn 2s ease-in 0s backwards; }
-    .main-page h1 span:nth-child(2) {
-      font-size: 90pt;
-      margin-left: 35%;
-      animation: fadeIn 2s ease-in 1s backwards; }
-    .main-page h1 span:nth-child(3) {
-      font-size: 70pt;
-      margin-left: 40%;
-      animation: fadeIn 2s ease-in 2s backwards; }
-  .main-page h2 {
-    font-size: 4em; }
+.main-page h1 {
+  font-size: 80pt; }
+  .main-page h1 span {
+    margin-left: 30%;
+    animation: fadeIn 2s ease-in 0s backwards; }
+  .main-page h1 span:nth-child(2) {
+    font-size: 90pt;
+    margin-left: 35%;
+    animation: fadeIn 2s ease-in 1s backwards; }
+  .main-page h1 span:nth-child(3) {
+    font-size: 70pt;
+    margin-left: 40%;
+    animation: fadeIn 2s ease-in 2s backwards; }
+.main-page h2 {
+  font-size: 4em; }
 
 .about {
   min-height: 2500px; }
